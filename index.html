@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Info App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Movie Information</h1>
+
+    <div class="search-box">
+        <input type="text" id="movieName" placeholder="Enter movie title">
+        <button id="searchBtn">Search</button>
+        <button id="clearBtn">Clear</button>
+    </div>
+
+    <div id="message" class="hidden"></div>
+
+    <div id="movieInfo" class="hidden">
+        <h2 id="infoTitle"></h2>
+        <img id="infoPoster" alt="Movie Poster">
+        <p id="infoOverview"></p>
+        <p><strong>Release Date:</strong> <span id="infoReleaseDate"></span></p>
+        <p><strong>Rating:</strong> <span id="infoRating"></span></p>
+        <p><strong>Language:</strong> <span id="infoLanguage"></span></p>
+        <p><strong>Votes:</strong> <span id="infoVotes"></span></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
